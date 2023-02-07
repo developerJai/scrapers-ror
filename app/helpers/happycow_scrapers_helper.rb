@@ -1,0 +1,2 @@
+module HappycowScrapersHelper
+end

@@ -1,0 +1,2 @@
+class VanillaPageHtml < ApplicationRecord
+end

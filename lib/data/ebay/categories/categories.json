@@ -1,0 +1,252 @@
+// Case 1:
+// "subcats": [] means price will be apply on all subcategories of the current category
+
+// Case 2:
+// "except_subcats": [] means price will not apply if subcategory exists here for the current category
+
+// Case 3:
+// "subcats": ["somedata"] means price will only apply for these subcategories only
+
+// Case 4:
+// When subcategory will have another inner subcategory we will join by ", " like:
+// subcat > innersubcat will be like: "subcats": ["subcat, innersubcat"]
+// We are doing above because we are joining all subcategory, inner-
+// -subcategories by ", " at time of scraping and saving in database for the product
+
+// Case 5:
+// "over_sales": means there are another percentage will be apply for a price range
+// "over_sales": ["max_amount": null] means there is not last range limit for this percent
+
+// Case 6:
+// "amount_upto": null means percent_upto percent will be apply of all amount no need to check over_sales
+{
+	"prices":[
+		{
+			"categories": [
+				{
+					"title": "all_others",
+					"subcats": [],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "12.55",
+			"amount_upto": "7500",
+			"over_sales": [
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "2.35"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Books & Magazines",
+					"subcats": [],
+					"except_subcats": []
+				},
+				{
+					"title": "Books & Magazines",
+					"subcats": [],
+					"except_subcats": ["Movie NFTs"]
+				},
+				{
+					"title": "Music",
+					"subcats": [],
+					"except_subcats": ["Vinyl Records", "Music NFTs"]
+				}
+
+			],
+			"percent_upto": "14.55",
+			"amount_upto": "7500",
+			"over_sales": [
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "2.35"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Coins & Paper Money",
+					"subcats": ["Bullion"],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "12.35",
+			"amount_upto": "7500",
+			"over_sales": [
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "7"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Clothing, Shoes & Accessories",
+					"subcats": ["Women's Bags & Handbags"],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "15",
+			"amount_upto": "2000",
+			"over_sales": [
+				{
+					"min_amount": "2001",
+					"max_amount": null,
+					"cut_percent": "9"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Jewelry & Watches",
+					"subcats": ["Watches, Parts & Accessories, Watches"],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "15",
+			"amount_upto": "1000",
+			"over_sales": [
+				{
+					"min_amount": "1001",
+					"max_amount": "7500",
+					"cut_percent": "6.5"
+				},
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "3"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Sports Mem, Cards & Fan Shop",
+					"subcats": ["Sports Trading Cards"],
+					"except_subcats": ["Sport Trading Card NFTs"]
+				},
+				{
+					"title": "Toys & Hobbies",
+					"subcats": ["Collectible Card Games"],
+					"except_subcats": ["CCG NFTs"]
+				}
+			],
+			"percent_upto": "12.35",
+			"amount_upto": "7500",
+			"over_sales": [
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "2.35"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Art",
+					"subcats": ["Art NFTs", "Art NFTs, Emerging NFTs", "Art NFTs, Non-Sport Trading Cards, Non-Sport Trading Card NFTs"],
+					"except_subcats": ["Sport Trading Card NFTs"]
+				},
+				{
+					"title": "Movies & TV",
+					"subcats": ["Movie NFTs"],
+					"except_subcats": []
+				},
+				{
+					"title": "Music",
+					"subcats": ["Music NFTs"],
+					"except_subcats": []
+				},
+				{
+					"title": "Sports Mem, Cards & Fan Shop",
+					"subcats": ["Sports Trading Cards, Sport Trading Card NFTs"],
+					"except_subcats": []
+				},
+				{
+					"title": "Games",
+					"subcats": ["CCG NFTs"],
+					"except_subcats": []
+				},
+				{
+					"title": "Toys & Hobbies",
+					"subcats": ["Collectible Card"],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "5",
+			"amount_upto": null,
+			"over_sales": []
+		},
+		{
+			"categories": [
+				{
+					"title": "Business & Industrial",
+					"subcats": [
+						"Heavy Equipment Parts & Attachments, Heavy Equipment",
+						"Printing & Graphic Arts, Commercial Printing Presses",
+						"Restaurant & Food Service, Food Trucks, Trailers & Carts"
+					],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "3",
+			"amount_upto": "15000",
+			"over_sales": [
+				{
+					"min_amount": "15001",
+					"max_amount": null,
+					"cut_percent": "0.5"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Musical Instruments & Gear",
+					"subcats": [ "Guitars & Basses"],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "5.85",
+			"amount_upto": "7500",
+			"over_sales": [
+				{
+					"min_amount": "7501",
+					"max_amount": null,
+					"cut_percent": "2.35"
+				}
+			]
+		},
+		{
+			"categories": [
+				{
+					"title": "Clothing, Shoes & Accessories",
+					"subcats": [ 
+						"Men, Men's Shoes, Athletic Shoes",
+						"Women, Women's Shoes, Athletic Shoes"
+					],
+					"except_subcats": []
+				}
+			],
+			"percent_upto": "12.55",
+			"amount_upto": "99.99",
+			"over_sales": [
+				{
+					"min_amount": "100",
+					"max_amount": null,
+					"cut_percent": "0"
+				}
+			]
+		}
+	]
+}

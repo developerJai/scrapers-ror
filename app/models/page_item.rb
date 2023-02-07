@@ -1,0 +1,2 @@
+class PageItem < ApplicationRecord
+end

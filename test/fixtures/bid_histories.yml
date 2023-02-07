@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  product: one
+  username: MyString
+  bid_count: MyString
+  bid_amount: MyString
+  bid_date_time: MyString
+
+two:
+  product: two
+  username: MyString
+  bid_count: MyString
+  bid_amount: MyString
+  bid_date_time: MyString

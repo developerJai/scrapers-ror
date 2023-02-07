@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  website: MyString
+  site_name: MyString
+  site_url: MyString
+  short_description: MyString
+  full_description: MyText
+  city: MyString
+  state: MyString
+  zip: MyString
+  shipping_available: false
+  ship_from: MyString
+  premium: 1.5
+  last_scanned: 2023-02-07 12:47:07
+  site_type: MyString
+  category: MyString
+  unparsed_address: MyString
+  address: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  policies: MyText
+  auction_store_id: MyString
+
+two:
+  website: MyString
+  site_name: MyString
+  site_url: MyString
+  short_description: MyString
+  full_description: MyText
+  city: MyString
+  state: MyString
+  zip: MyString
+  shipping_available: false
+  ship_from: MyString
+  premium: 1.5
+  last_scanned: 2023-02-07 12:47:07
+  site_type: MyString
+  category: MyString
+  unparsed_address: MyString
+  address: MyString
+  country: MyString
+  latitude: MyString
+  longitude: MyString
+  policies: MyText
+  auction_store_id: MyString

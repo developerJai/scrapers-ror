@@ -1,0 +1,47 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  item_page_url: MyString
+  item_page_html: MyText
+  trip_advisor_html: one
+  r_id: MyString
+  r_name: MyString
+  location: MyString
+  latitude: MyString
+  longitude: MyString
+  contact: MyString
+  email: MyString
+  price: MyString
+  timing: MyString
+  cuisine: MyString
+  meals: MyString
+  special_diet: MyString
+  features: MyString
+  details: MyString
+  total_reviews: MyString
+  total_rating: MyString
+  website_link: MyString
+  image: MyString
+
+two:
+  item_page_url: MyString
+  item_page_html: MyText
+  trip_advisor_html: two
+  r_id: MyString
+  r_name: MyString
+  location: MyString
+  latitude: MyString
+  longitude: MyString
+  contact: MyString
+  email: MyString
+  price: MyString
+  timing: MyString
+  cuisine: MyString
+  meals: MyString
+  special_diet: MyString
+  features: MyString
+  details: MyString
+  total_reviews: MyString
+  total_rating: MyString
+  website_link: MyString
+  image: MyString

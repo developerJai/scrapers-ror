@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lots: 1
+  total_est_value: 1.5
+  auction: one
+  user: one
+
+two:
+  lots: 1
+  total_est_value: 1.5
+  auction: two
+  user: two

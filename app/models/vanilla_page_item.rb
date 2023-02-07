@@ -1,0 +1,2 @@
+class VanillaPageItem < ApplicationRecord
+end

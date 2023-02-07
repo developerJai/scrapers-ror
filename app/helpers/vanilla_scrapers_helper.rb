@@ -1,0 +1,2 @@
+module VanillaScrapersHelper
+end

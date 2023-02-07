@@ -1,0 +1,85 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  main_site: MyString
+  auction_url: MyString
+  opening_date: 2023-02-07 13:01:54
+  closing_date: 2023-02-07 13:01:54
+  bidding_open: 2023-02-07 13:01:54
+  short_description: MyString
+  full_description: MyText
+  lots: 1
+  shipping_type: MyString
+  premium: 1.5
+  pallet_count: 1
+  auction_store_id: MyString
+  user: one
+  site: MyString
+  ebay_value: 1
+  amz_value: 1
+  negg_value: 1
+  shipping_cost: 1.5
+  shipping_offered: false
+  auction_site: one
+  ended: false
+  online_only: false
+  scanned: false
+  title: MyString
+  unparsed_address: MyText
+  latitude: MyString
+  longitude: MyString
+  distance: 1.5
+  auctioneer_name: MyString
+  auction_url_code: MyString
+  event_name: MyString
+  auction_city: MyString
+  auction_zip: MyString
+  featured_picture_full: MyString
+  featured_picture_thumb: MyString
+  featured_picture_description: MyString
+  hide: false
+  bidding_notice: MyString
+  auction_notice: MyString
+  time_zone: MyString
+
+two:
+  main_site: MyString
+  auction_url: MyString
+  opening_date: 2023-02-07 13:01:54
+  closing_date: 2023-02-07 13:01:54
+  bidding_open: 2023-02-07 13:01:54
+  short_description: MyString
+  full_description: MyText
+  lots: 1
+  shipping_type: MyString
+  premium: 1.5
+  pallet_count: 1
+  auction_store_id: MyString
+  user: two
+  site: MyString
+  ebay_value: 1
+  amz_value: 1
+  negg_value: 1
+  shipping_cost: 1.5
+  shipping_offered: false
+  auction_site: two
+  ended: false
+  online_only: false
+  scanned: false
+  title: MyString
+  unparsed_address: MyText
+  latitude: MyString
+  longitude: MyString
+  distance: 1.5
+  auctioneer_name: MyString
+  auction_url_code: MyString
+  event_name: MyString
+  auction_city: MyString
+  auction_zip: MyString
+  featured_picture_full: MyString
+  featured_picture_thumb: MyString
+  featured_picture_description: MyString
+  hide: false
+  bidding_notice: MyString
+  auction_notice: MyString
+  time_zone: MyString
