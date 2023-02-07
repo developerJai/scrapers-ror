@@ -13,5 +13,6 @@ This codebase is getting data from below sources
 - Selenium webdriver
 - Nokogiri
 - Watir browser via chrome driver
+- Mechanize
 - Proxycrawl
 
