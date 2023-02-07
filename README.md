@@ -1,24 +1,17 @@
-# README
+## Scrapping via Ruby on Rails
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+We are saving all the data in database and doing mining to refine received data.
 
-Things you may want to cover:
+### Major Sources
+This codebase is getting data from below sources
+- Ebay
+- Happycow
+- Trip Advisor
+- Vanilla bean
 
-* Ruby version
+### Major tools we have used in code
+- Selenium webdriver
+- Nokogiri
+- Watir browser via chrome driver
+- Proxycrawl
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
